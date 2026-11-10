@@ -1,0 +1,16 @@
+{
+  "name": "workspace-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for workspace operations",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js",
+    "test": "node --test"
+  },
+  "author": "killa",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0"
+  }
+}
